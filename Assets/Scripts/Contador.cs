@@ -28,6 +28,11 @@ public class Contador : MonoBehaviour
             StartCoroutine(WinCanvas());
             
         }
+
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            contador = 0;
+        }
     }
     public IEnumerator WinCanvas()
     {

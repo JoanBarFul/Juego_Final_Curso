@@ -20,7 +20,7 @@ public class Player_Controller : MonoBehaviour
 
     // Velocidades
     public int speed = 5;
-    private int speedRotate = 100;
+    private int speedRotate = 200;
 
     //Disparo
    
@@ -119,7 +119,7 @@ public class Player_Controller : MonoBehaviour
     public IEnumerator Ataque()
     {
         playerAnimation.SetTrigger("trAtacar");
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         Instantiate(colliderKatana, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 1f, gameObject.transform.position.z), transform.rotation);
 
 

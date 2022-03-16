@@ -21,7 +21,7 @@ public class Menu_Script : MonoBehaviour
     public GameObject atacarGameObject;
     public GameObject caminarGameObject;
  
-    public GameObject protegerObject;
+    
     public GameObject correrObject;
     public GameObject escapeGameObject;
 
@@ -50,7 +50,7 @@ public class Menu_Script : MonoBehaviour
             
             atacarGameObject.SetActive(true);
             caminarGameObject.SetActive(true);
-            protegerObject.SetActive(true);
+            
             correrObject.SetActive(true);
             escapeGameObject.SetActive(true);
         }
@@ -109,7 +109,7 @@ public class Menu_Script : MonoBehaviour
         atacarGameObject.SetActive(false);
         caminarGameObject.SetActive(false);
        
-        protegerObject.SetActive(false);
+        
         correrObject.SetActive(false);
         escapeGameObject.SetActive(false);
     }
