@@ -937,11 +937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9045032832174331442}
-  - component: {fileID: 7371004743234663328}
-  - component: {fileID: 8051681452119125110}
-  - component: {fileID: 4242074226269429783}
-  - component: {fileID: 1659663148622469986}
-  - component: {fileID: 5588783250628808969}
+  - component: {fileID: 7607806379025511802}
   m_Layer: 0
   m_Name: casa_aldea
   m_TagString: Untagged
@@ -968,7 +964,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -171.127, z: 0}
---- !u!65 &7371004743234663328
+--- !u!65 &7607806379025511802
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -979,57 +975,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.17291, y: 0.16675393, z: 2.1696172}
-  m_Center: {x: -0.0029538474, y: -0.83633256, z: 0.009896676}
---- !u!65 &8051681452119125110
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8560702824295386248}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 2.9053497, y: 2.8957286, z: 1.4868879}
-  m_Center: {x: 0.6254934, y: 0.47633743, z: -0.32431048}
---- !u!65 &4242074226269429783
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8560702824295386248}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.230952, y: 1.719877, z: 1.4725044}
-  m_Center: {x: -1.4338226, y: -0.11158912, z: -0.3218794}
---- !u!65 &1659663148622469986
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8560702824295386248}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.2187628, y: 1.1777458, z: 2.1348321}
-  m_Center: {x: -1.4356321, y: 1.3330873, z: 0.0068386397}
---- !u!65 &5588783250628808969
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8560702824295386248}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.10241445, y: 1.7178173, z: 0.11358707}
-  m_Center: {x: -1.9986204, y: -0.099126816, z: 1.0053155}
+  m_Size: {x: 4.4193897, y: 3.120923, z: 2.5301726}
+  m_Center: {x: 0.03082927, y: 0.590419, z: -0.019976139}

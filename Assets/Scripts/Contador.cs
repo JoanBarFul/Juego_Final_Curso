@@ -8,12 +8,14 @@ public class Contador : MonoBehaviour
 {
     public TextMeshProUGUI contadortext;
     public int contador;
+    public GameObject winText;
 
 
     void Start()
     {
         contador = 15;
         contadortext.text = $"Muñecos restantes {contador}";
+        
     }
 
 
@@ -23,7 +25,14 @@ public class Contador : MonoBehaviour
 
         if (contador <= 0)
         {
-            SceneManager.LoadScene("_Montanya");
+            StartCoroutine(WinCanvas());
+            
         }
+    }
+    public IEnumerator WinCanvas()
+    {
+        winText.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("_Montanya");
     }
 }
